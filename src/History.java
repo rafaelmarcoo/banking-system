@@ -28,7 +28,7 @@ public class History implements ActionListener
 	private static String firstName;
 	private static String lastName;
 	
-	private JFrame historyFrame = new JFrame();
+	private static JFrame historyFrame = new JFrame();
 	private static JTable hisTbl;
 	private JButton backButton = new JButton("Back");
 	private JButton refreshButton = new JButton("Refresh");
