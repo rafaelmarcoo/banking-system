@@ -7,6 +7,14 @@
  - JDBC: Used for accessing relevant information needed for various transactions
  - MySQL: Utilized for storing all customer information and transaction history
 
+## How to use the application:
+- Clone repo: `git clone https://github.com/rafaelmarcoo/banking-system`
+- Open on Eclipse IDE and add external JARs in build path: mysql-connector and json-simple
+- Open XAMPP and start Apache and MySQL
+- In phpMyAdmin, create a database named 'onlinebanking'
+- Paste SQL table creation scripts located in sqltablecommands folder
+- Run Main.java
+
 ### Login:
 This is the main login interface where users can enter their username and password to access their accounts. Additionally, there is a button available for creating a new account.
 
